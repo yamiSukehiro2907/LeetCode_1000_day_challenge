@@ -1,3 +1,4 @@
+
 public class Solve {
     public static void main(String[] args) {
         System.out.println(Solution.buildArray(new int[] { 0, 2, 3, 1 }));
