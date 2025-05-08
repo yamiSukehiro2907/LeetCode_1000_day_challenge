@@ -60,25 +60,25 @@ class Solution2 {
 
 class Solution {
     private static class Cell implements Comparable<Cell> {
-        final int openTime;
-        final boolean longStay;
+        final int startTime;
+        final boolean oneMove;
         Cell[] adjacent;
         Cell next;
 
         Cell() {
-            openTime = Integer.MAX_VALUE;
-            longStay = true;
+            startTime = Integer.MAX_VALUE;
+            oneMove = true;
         }
 
-        Cell(int openTime, boolean longStay) {
-            this.openTime = openTime;
-            this.longStay = longStay;
+        Cell(int startTime, boolean oneMove) {
+            this.startTime = startTime;
+            this.oneMove = oneMove;
             next = this;
         }
 
         @Override
         public int compareTo(Cell other) {
-            return openTime - other.openTime;
+            return startTime - other.startTime;
         }
     }
 
@@ -120,50 +120,50 @@ class Solution {
 
     public static int minTimeToReach(int[][] moveTime) {
         Cell start = initCells(moveTime);
-        Cell finish = start.next;
-        Queue<Cell> waitingToEnter = new PriorityQueue<>();
-        waitingToEnter.add(DUMMY_Cell);
+        Cell end = start.next;
+        Queue<Cell> queue = new PriorityQueue<>();
+        queue.add(DUMMY_Cell);
         start.next = null;
-        Cell exitingShortHead = start;
-        Cell exitingLongHead = null;
-        int currentTime = 0;
+        Cell prev = start;
+        Cell curr = null;
+        int currTime = 0;
         while (true) {
-            Cell exitingLongHeadNew = null;
-            while (exitingShortHead != null) {
-                for (Cell adj : exitingShortHead.adjacent)
+            Cell currNew = null;
+            while (prev != null) {
+                for (Cell adj : prev.adjacent)
                     if (adj.next == adj) {
-                        if (adj == finish)
-                            return Math.max(currentTime, finish.openTime) + (finish.longStay ? 2 : 1);
-                        if (adj.openTime <= currentTime) {
-                            if (adj.longStay) {
-                                adj.next = exitingLongHeadNew;
-                                exitingLongHeadNew = adj;
+                        if (adj == end)
+                            return Math.max(currTime, end.startTime) + (end.oneMove ? 2 : 1);
+                        if (adj.startTime <= currTime) {
+                            if (adj.oneMove) {
+                                adj.next = currNew;
+                                currNew = adj;
                             } else {
-                                adj.next = exitingLongHead;
-                                exitingLongHead = adj;
+                                adj.next = curr;
+                                curr = adj;
                             }
                         } else {
                             adj.next = null;
-                            waitingToEnter.offer(adj);
+                            queue.offer(adj);
                         }
                     }
-                exitingShortHead = exitingShortHead.next;
+                prev = prev.next;
             }
-            exitingShortHead = exitingLongHead;
-            exitingLongHead = exitingLongHeadNew;
+            prev = curr;
+            curr = currNew;
             int queueTime;
-            while ((queueTime = waitingToEnter.peek().openTime) <= currentTime) {
-                Cell entering = waitingToEnter.poll();
-                if (entering.longStay) {
-                    entering.next = exitingLongHead;
-                    exitingLongHead = entering;
+            while ((queueTime = queue.peek().startTime) <= currTime) {
+                Cell entering = queue.poll();
+                if (entering.oneMove) {
+                    entering.next = curr;
+                    curr = entering;
                 } else {
-                    entering.next = exitingShortHead;
-                    exitingShortHead = entering;
+                    entering.next = prev;
+                    prev = entering;
                 }
             }
-            if (++currentTime < queueTime && exitingShortHead == null && exitingLongHead == null)
-                currentTime = queueTime;
+            if (++currTime < queueTime && prev == null && curr == null)
+                currTime = queueTime;
         }
     }
 }
