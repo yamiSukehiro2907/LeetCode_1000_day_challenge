@@ -1,3 +1,5 @@
+package Year_2025.May.May_4;
+
 public class test {
     public static void main(String[] args) {
         double arr[] = { 10.71, 25.71 , 0.71 , -19.29 , -9.29 , 15.71 , -24.29 };

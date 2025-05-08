@@ -1,31 +1,23 @@
-// https://leetcode.com/problems/minimum-domino-rotations-for-equal-row
-class Solution {
-    public int minDominoRotations(int[] tops, int[] bottoms) {
-        int ans = -1;
-        for(int i = 1 ; i <= 6 ; i++){
-            int curr = solve(tops , bottoms , i);
-            if(curr != -1 && (ans == -1 || curr < ans)) ans = curr; // if the rotation is possible and if not already calculated or curr_possible rotation is less than answer
-        }
-        return ans;
-    }
-    private int solve(int[] tops , int[] bottoms , int val){
-        int topFlip = 0 , bottomFlip = 0;
-        for(int i = 0 ; i < tops.length ; i++){
-            if(tops[i] != val && bottoms[i] != val) return -1;
-            else if(tops[i] == val && bottoms[i] == val) continue; // do not flip if both top and bottom are equal
-            else if(tops[i] != val) bottomFlip++; // if top is not equal number then flip bottom
-            else topFlip++; // if bottom is not equal to number then flip top
-        }
-        return Math.min(topFlip , bottomFlip); // minimum flips required to make top or bottom equal
+package Year_2025.May.May_3;
+
+import java.util.*;
+
+public class Test {
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        int[] tops = {1,2,1,1,1,2,2,2};
+        int bottoms[] = { 2,1,2,2,2,2,2,2 };
+        System.out.println(solution.minDominoRotations(tops, bottoms));
     }
 }
-/*
-Brute Approach : This works for all possible values of top and bottom
+
 class Solution {
     public int minDominoRotations(int[] tops, int[] bottoms) {
         int topLength = tops.length, bottomLength = bottoms.length;
         if (topLength != bottomLength) return -1;
+        // System.out.println("Passed the check of equal length");
         if (topLength == 1) return 0;
+        // System.out.println("Length is greater than 1");
         Map<Integer, Integer> topMap = new HashMap<>();
         Map<Integer, Integer> bottomMap = new HashMap<>();
         for (int num : tops) topMap.put(num, topMap.getOrDefault(num, 0) + 1);
@@ -39,6 +31,12 @@ class Solution {
             }
         }
         if (map.size() == 0) return -1;
+        // System.out.println("Top Map -> ");
+        // print(topMap);
+        // System.out.println("Bottom Map -> ");
+        // print(bottomMap);
+        // System.out.println("Possible answer Map -> ");
+        // print(map);
         for (int num : map.keySet()) {
             int temp = 0;
             boolean Notpossible = false;
@@ -54,17 +52,21 @@ class Solution {
                     break;
                 }
             }
-            if (!Notpossible) rotations = Math.min(temp, rotations);
+            if (!Notpossible) {
+                rotations = Math.min(temp, rotations);
+            }
         }
         return rotations == Integer.MAX_VALUE ? -1 : rotations ;
     }
+    // topMap: 2 -> 4 , 1 -> 1 , 4 -> 1
+    // bottomMap: 2 -> 3 , 3 -> 1 , 5 -> 1 , 6 -> 1
 }
+/*
+private void print(Map<Integer, ?> map) {
+        for (int num : map.keySet()) {
+            System.out.print(num + " -> " + map.get(num));
+            System.out.print(" ");
+        }
+        System.out.println();
+    }  
  */
-public class Approach{
-    public static void main(String[] args) {
-        Solution solution = new Solution();
-        int[] tops = {};
-        int[] bottoms = {};
-        System.out.println(solution.minDominoRotations(tops, bottoms));
-    }
-}

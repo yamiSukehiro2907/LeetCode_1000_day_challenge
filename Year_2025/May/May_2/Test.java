@@ -1,5 +1,4 @@
-
-
+package Year_2025.May.May_2;
 public class Test {
     public static void main(String[] args) {
         Solution solution = new Solution();

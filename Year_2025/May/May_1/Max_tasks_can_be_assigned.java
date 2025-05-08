@@ -1,3 +1,5 @@
+package Year_2025.May.May_1;
+
 import java.util.*;
 
 class Solution {

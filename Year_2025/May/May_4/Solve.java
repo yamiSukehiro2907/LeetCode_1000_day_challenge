@@ -1,3 +1,11 @@
+package Year_2025.May.May_4;
+
+public class Solve {
+    public static void main(String[] args) {
+        System.out.println(Solution.numTilings(60));
+    }
+}
+
 class Solution {
     static {
         initialize();
@@ -20,6 +28,18 @@ class Solution {
     }
 
     public static int numTilings(int n) {
+        print();
         return answer[n];
+    }
+
+    private static void print() {
+        int k = 0;
+        for (int i = 1; i < 1001; i++) {
+            System.out.print(answer[i] + " ");
+            if (i % 10 == 0) {
+                System.out.println();
+            }
+        }
+        System.out.println();
     }
 }
