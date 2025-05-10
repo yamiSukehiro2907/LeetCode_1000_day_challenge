@@ -1,5 +1,5 @@
 package Year_2025.May.May_7;
-
+ n
 import java.util.PriorityQueue;
 
 public class Solve {
