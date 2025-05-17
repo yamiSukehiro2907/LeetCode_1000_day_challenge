@@ -10,7 +10,6 @@ public class Solve2 {
 }
 
 class Solution {
-    
     public static int minTimeToReach(int[][] moveTime) {
         matrix = moveTime;
         Cell start = init();
@@ -48,10 +47,10 @@ class Solution {
             }
         }
     }
-    
+
     private static int[][] matrix;
     private static final Cell DUMMY_CELL = new Cell();
-    
+
     private static Cell init() {
         int m = matrix.length, n = matrix[0].length;
         Cell[][] cells = new Cell[m][n];
@@ -79,6 +78,7 @@ class Solution {
         start.next = cells[m - 1][n - 1];
         return start;
     }
+
     private static class Cell implements Comparable<Cell> {
 
         final int startTime;
