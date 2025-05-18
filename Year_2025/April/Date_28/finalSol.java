@@ -5,10 +5,10 @@ public class finalSol {
         Solution solution = new Solution();
         int[] arr = { 1, 1, 1 };
         System.out.println(solution.countSubarrays(arr, (long) (5)));
-    }}
+    }
+}
 
-class Solution{
-
+class Solution {
     public long countSubarrays(int[] nums, long k) {
         long total = 0, currsum = 0;
         int left = 0;
