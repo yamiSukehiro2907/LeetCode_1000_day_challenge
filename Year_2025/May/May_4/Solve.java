@@ -32,7 +32,6 @@ public class Solve {
         }
 
         private static void print() {
-            int k = 0;
             for (int i = 1; i < 1001; i++) {
                 System.out.print(answer[i] + " ");
                 if (i % 10 == 0) {

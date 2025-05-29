@@ -39,7 +39,6 @@ class Solution {
 
 public class Java {
     public static void main(String[] args) {
-        Solution s = new Solution();
-        System.out.println(s.countLargestGroup(174));
+        System.out.println(Solution.countLargestGroup(174));
     }
 }
