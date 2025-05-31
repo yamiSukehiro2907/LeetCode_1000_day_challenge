@@ -5,7 +5,7 @@ public class Test {
 
     }
 
-    class Solution {
+    static class Solution {
         public int[] findEvenNumbers(int[] digits) {
             ArrayList<Integer> list = new ArrayList<>();
             for (int i = 100; i <= 999; i++) {
