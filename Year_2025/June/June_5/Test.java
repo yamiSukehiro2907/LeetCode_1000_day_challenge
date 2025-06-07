@@ -2,7 +2,7 @@ package Year_2025.June.June_5;
 
 import java.util.*;
 
-class Solution {
+class Solution2 {
     private int totalPath;
 
     public int countPaths(int[][] edges, int V, int src, int dest) {
@@ -23,7 +23,7 @@ class Solution {
             totalPath = totalPath + 1;
             return;
         }
-        for(int adj : (List<Integer>)graph[src]){
+        for (int adj : (List<Integer>) graph[src]) {
             calculate(graph, adj, dest);
         }
     }
