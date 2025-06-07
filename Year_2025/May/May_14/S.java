@@ -126,3 +126,9 @@ class Solution {
         return c;
     }
 }
+
+public class S {
+    public static void main(String[] args) {
+
+    }
+}

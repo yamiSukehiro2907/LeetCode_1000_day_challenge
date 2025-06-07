@@ -12,6 +12,7 @@ public class Editorial {
 
     class Solution {
         static final int mod = 1000000007;
+
         public int colorTheGrid(int m, int n) {
             // Hash mapping stores all valid coloration schemes for a single row that meet
             // the requirements

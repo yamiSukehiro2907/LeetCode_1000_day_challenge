@@ -2,8 +2,7 @@ package Year_2025.May.May_29;
 
 import java.util.ArrayList;
 
-public 
-class LinkedList {
+public class LinkedList {
     private class Node {
         Node next;
         int val;

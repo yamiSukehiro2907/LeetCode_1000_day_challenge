@@ -1,7 +1,7 @@
 import java.util.*;
 
 public class Approach1 {
-    class Solution {
+    static class Solution {
         public int[] maxTargetNodes(int[][] edges1, int[][] edges2, int k) {
             int maxNode = getNodeinTree2(edges2, k - 1);
             int n = edges1.length + 1;
@@ -60,5 +60,9 @@ public class Approach1 {
                 }
             }
         }
+    }
+
+    public static void main(String[] args) {
+
     }
 }

@@ -1,6 +1,6 @@
 
+package Year_2025.May.May_1;
 import java.util.*;
-package Year_2025.May.May_1.Max_tasks_can_be_assigned.java;
 
 
 public class Max_tasks_can_be_assigned {

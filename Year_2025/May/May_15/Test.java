@@ -18,11 +18,15 @@ public class Test {
             if (intervals[0][0] > end) { // if the interval will be added before first interval
                 list.add(newInterval);
                 used = true;
-            } else if (end <= intervals[0][1] && start <= intervals[0][0]) { // if the newInterval's start is before start of intervals and end is in the first interval
+            } else if (end <= intervals[0][1] && start <= intervals[0][0]) { // if the newInterval's start is before
+                                                                             // start of intervals and end is in the
+                                                                             // first interval
                 used = true;
                 list.add(new int[] { Math.min(start, intervals[0][0]), Math.max(end, intervals[0][1]) });
                 i++;
-            } else if (end > intervals[0][0] && start <= intervals[0][0]) { // if the newInterval's start is before start of intervals and end is not in the first interval
+            } else if (end > intervals[0][0] && start <= intervals[0][0]) { // if the newInterval's start is before
+                                                                            // start of intervals and end is not in the
+                                                                            // first interval
                 start = Math.min(start, intervals[0][0]);
                 while (i < n) {
                     int temp2[] = intervals[i];
@@ -38,7 +42,8 @@ public class Test {
                     }
                     i++;
                 }
-                if (i == n && !used) { // if reach the end and not even added interval then it means newInterval contains all intervals
+                if (i == n && !used) { // if reach the end and not even added interval then it means newInterval
+                                       // contains all intervals
                     list.add(new int[] { start, end });
                     used = true;
                 }
@@ -58,7 +63,8 @@ public class Test {
                                 used = true;
                                 list.add(temp);
                                 break;
-                            } else if (end < temp2[1]) { // if end is not in any interval and needed to create a new interval
+                            } else if (end < temp2[1]) { // if end is not in any interval and needed to create a new
+                                                         // interval
                                 list.add(temp);
                                 used = true;
                                 i--;

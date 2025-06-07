@@ -6,7 +6,7 @@ public class Approach {
 
 }
 
-class Solution2 {
+class Solution {
     public int minTimeToReach(int[][] moveTime) {
         int m = moveTime.length, n = moveTime[0].length;
         boolean[][] visited = new boolean[m][n];
@@ -58,7 +58,7 @@ class Solution2 {
     }
 }
 
-class Solution {
+class Solution2 {
     private static class Cell implements Comparable<Cell> {
         final int startTime;
         final boolean oneMove;

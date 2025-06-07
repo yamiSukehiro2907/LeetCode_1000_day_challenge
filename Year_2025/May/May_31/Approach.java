@@ -1,7 +1,7 @@
 package Year_2025.May.May_31;
 
 public class Approach {
-    class Solution {
+    static class Solution {
         public int snakesAndLadders(int[][] board) {
             int size = board.length;
             int target = size * size;

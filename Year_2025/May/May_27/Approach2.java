@@ -1,8 +1,11 @@
 import java.util.*;
 
 public class Approach2 {
-    class Solution {
+    public static void main(String[] args) {
 
+    }
+
+    static class Solution {
         List<Integer>[] buildGraph(int[][] edges, int nodeCount) {
             List<Integer>[] graph = new List[nodeCount];
             for (int[] edge : edges) {
