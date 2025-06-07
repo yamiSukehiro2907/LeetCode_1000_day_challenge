@@ -1,3 +1,5 @@
+package May.May_27;
+
 import java.util.*;
 
 public class Approach1 {
@@ -66,3 +68,4 @@ public class Approach1 {
 
     }
 }
+

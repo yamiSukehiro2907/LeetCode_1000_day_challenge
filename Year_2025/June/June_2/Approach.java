@@ -1,4 +1,4 @@
-package Year_2025.June.June_2;
+package June.June_2;
 
 class Solution {
         static {

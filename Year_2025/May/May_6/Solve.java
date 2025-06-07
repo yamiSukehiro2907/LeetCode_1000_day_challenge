@@ -1,4 +1,4 @@
-package Year_2025.May.May_6;
+package May.May_6;
 
 
 public class Solve {

@@ -1,4 +1,4 @@
-package Year_2025.May.May_5;
+package May.May_5;
 
 public class Java {
 

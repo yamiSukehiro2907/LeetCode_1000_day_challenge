@@ -1,4 +1,4 @@
-package Year_2025.May.May_10;
+package May.May_10;
 
 public class Test {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Year_2025.May.May_31;
+package May.May_31;
 
 public class Approach {
     static class Solution {

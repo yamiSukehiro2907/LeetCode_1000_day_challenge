@@ -1,4 +1,4 @@
-package Year_2025.May.May_15;
+package May.May_15;
 
 import java.util.*;
 

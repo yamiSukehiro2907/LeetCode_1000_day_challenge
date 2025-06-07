@@ -1,4 +1,4 @@
-package Year_2025.April.Date_28;
+package April.Date_28;
 
 public class finalSol {
     public static void main(String[] args) {

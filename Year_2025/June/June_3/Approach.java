@@ -1,3 +1,5 @@
+package June.June_3;
+
 import java.util.*;
 public class Approach {
     static class Solution {
@@ -113,3 +115,4 @@ public class Approach {
         System.out.println(solution.maxCandies(status, candies, keys, containedBoxes, initialBoxes));
     }
 }
+

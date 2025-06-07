@@ -1,4 +1,4 @@
-package Year_2025.May.May_3;
+package May.May_3;
 
 // https://leetcode.com/problems/minimum-domino-rotations-for-equal-row
 class Solution {
