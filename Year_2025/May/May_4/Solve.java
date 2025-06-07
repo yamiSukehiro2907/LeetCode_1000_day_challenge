@@ -2,7 +2,10 @@ package Year_2025.May.May_4;
 
 public class Solve {
     public static void main(String[] args) {
-        System.out.println(Solution.numTilings(60));
+
+        Solution solution = new Solution();
+        System.out.println(solution.numTilings(60));
+
     }
 
     static class Solution {

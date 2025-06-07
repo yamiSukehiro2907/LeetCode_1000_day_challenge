@@ -1,3 +1,5 @@
+package Year_2025.June.June_2;
+
 class Solution {
         static {
             for (int i = 0; i < 140; ++i) {
