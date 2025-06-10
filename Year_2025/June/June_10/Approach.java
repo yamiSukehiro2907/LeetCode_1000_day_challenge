@@ -10,8 +10,9 @@ public class Approach {
         }
 
         public static int maxDifference(String s) {
-            if (s.length() == 1)
+            if (s.length() == 1) {
                 return 1;
+            }
             int[] freq = new int[26];
             for (char ch : s.toCharArray()) {
                 freq[ch - 'a']++;
