@@ -1,4 +1,4 @@
-package June.June_3;
+package June_3;
 
 import java.util.*;
 public class Approach {

@@ -1,4 +1,4 @@
-package June.June_2;
+package June_2;
 
 class Solution {
         static {

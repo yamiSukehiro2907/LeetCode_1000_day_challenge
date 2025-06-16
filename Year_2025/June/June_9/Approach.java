@@ -1,4 +1,4 @@
-package June.June_9;
+package June_9;
 
 public class Approach {
     public static void main(String[] args) {

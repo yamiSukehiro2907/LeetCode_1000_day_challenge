@@ -1,4 +1,4 @@
-package June.June_8;
+package June_8;
 
 import java.util.*;
 
