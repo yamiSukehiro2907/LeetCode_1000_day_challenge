@@ -1,3 +1,4 @@
+
 public class Approach {
     public static void main(String[] args) {
 
