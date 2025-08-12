@@ -5,8 +5,9 @@ public class August_1 {
 
     }
 
+    @SuppressWarnings("unused")
     static class Solution {
-        void fun(List<List<Integer>> list, int i, int n) {
+        public void fun(List<List<Integer>> list, int i, int n) {
             List<Integer> li = new ArrayList<>();
             if (i >= n) {
                 return;

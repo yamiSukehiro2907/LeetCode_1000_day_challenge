@@ -2,7 +2,7 @@ public class August_5 {
     public static void main(String[] args) {
 
     }
-
+    @SuppressWarnings("unused")
     static class Solution {
         public int numOfUnplacedFruits(int[] fruits, int[] baskets) {
             int count = 0;

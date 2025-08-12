@@ -1,10 +1,9 @@
-import java.util.*;
-
 public class August_4 {
     public static void main(String[] args) {
 
     }
 
+    @SuppressWarnings("unused")
     static class Solution {
         static {
             for (int i = 0; i < 300; i++) {

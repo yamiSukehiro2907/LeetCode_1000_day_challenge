@@ -2,7 +2,7 @@ public class August_7 {
     public static void main(String[] args) {
 
     }
-
+    @SuppressWarnings("unused")
     static class Solution {
         public int maxCollectedFruits(int[][] fruits) {
             /*

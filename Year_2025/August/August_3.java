@@ -2,7 +2,7 @@ public class August_3 {
     public static void main(String[] args) {
 
     }
-
+    @SuppressWarnings("unused")
     static class Solution {
         public int maxTotalFruits(int[][] fruits, int start, int k) {
             int n = fruits.length;
