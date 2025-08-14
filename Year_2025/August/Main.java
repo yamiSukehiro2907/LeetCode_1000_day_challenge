@@ -2,9 +2,10 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-
+        Graph graph = new Graph(5);
+        System.out.println(graph.isConnectedDfs(0, 4));
+        System.out.println(graph.isConnectedBfs(0, 4));
     }
-
 }
 
 class Graph {
@@ -18,18 +19,16 @@ class Graph {
 
     private void init() {
         this.graph = new ArrayList<>();
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < size; i++) {
             graph.add(new ArrayList<>());
         }
-        graph.get(0).add(1); // 0 -> 1
-        graph.get(1).add(0); // 1 -> 0
-        graph.get(1).add(2); // 1 -> 2
-        graph.get(2).add(1); // 2 -> 1
-        graph.get(2).add(3); // 2 -> 3
-        graph.get(3).add(2); // 3 -> 2
+        for (int i = 1; i < size; i++) {
+            graph.get(i).add(i - 1);
+            graph.get(i - 1).add(i);
+        }
     }
 
-    public boolean isConnectedBfs(int source, int destination) {
+    public boolean isConnectedDfs(int source, int destination) {
         boolean[] visited = new boolean[graph.size()];
         visited[source] = true;
         return findConnection(visited, source, destination);
@@ -47,7 +46,21 @@ class Graph {
         return false;
     }
 
-    public boolean isConnectedDfs() {
-
+    public boolean isConnectedBfs(int source, int destination) {
+        Queue<Integer> queue = new LinkedList<>();
+        Set<Integer> set = new HashSet<>();
+        queue.add(source);
+        while (!queue.isEmpty()) {
+            int node = queue.poll();
+            for (int num : graph.get(node)) {
+                if (!set.contains(num)) {
+                    if (num == destination)
+                        return true;
+                    queue.add(num);
+                    set.add(num);
+                }
+            }
+        }
+        return false;
     }
 }
