@@ -4,6 +4,7 @@ public class August_17 {
 
     }
 
+    @SuppressWarnings("unused")
     static class Solution {
         public double new21Game(int n, int k, int maxPts) {
             double[] dp = new double[k + 1];
