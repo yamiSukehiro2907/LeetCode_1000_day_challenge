@@ -21,7 +21,6 @@ public class GFG_4 {
             generate(str, temp1);
             ArrayList<String> possibleOperationsCombinations = new ArrayList<>();
             for (ArrayList<String> numCombination : possibleNumCombinations) {
-                System.out.println(numCombination);
                 if (valid(numCombination)) {
                     ArrayList<String> possibleOperationCombination = generatePossibleOperationCombinations(
                             numCombination);
@@ -117,30 +116,19 @@ public class GFG_4 {
         }
 
         private void generate(String str, ArrayList<String> temp) {
-            if (str.length() == 1) {
-                temp.add(str);
+            if (str.length() == 0) {
                 possibleNumCombinations.add(new ArrayList<>(temp));
-                temp.remove(temp.size() - 1);
                 return;
             }
 
-            for (int i = 0; i < str.length() - 1; i++) {
-                String left = getSubstring(str, 0, i);
-                String right = getSubstring(str, i + 1, str.length() - 1);
+            for (int i = 1; i <= str.length(); i++) {
+                String left = str.substring(0, i);
+                String right = str.substring(i);
                 temp.add(left);
                 generate(right, temp);
                 temp.remove(temp.size() - 1);
             }
         }
-
-        private String getSubstring(String str, int left, int right) {
-            StringBuilder sb = new StringBuilder();
-            for (int i = left; i <= right; i++) {
-                sb.append(str.charAt(i));
-            }
-            return sb.toString();
-        }
-
     }
 
 }
