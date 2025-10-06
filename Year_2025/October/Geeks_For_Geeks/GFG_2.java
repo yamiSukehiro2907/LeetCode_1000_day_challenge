@@ -1,5 +1,3 @@
-package Geeks_For_Geeks;
-
 import java.util.ArrayList;
 
 public class GFG_2 {

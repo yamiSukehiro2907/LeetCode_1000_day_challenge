@@ -1,4 +1,3 @@
-package Geeks_For_Geeks;
 
 import java.util.*;
 

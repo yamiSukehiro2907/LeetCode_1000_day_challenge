@@ -1,5 +1,3 @@
-package Geeks_For_Geeks;
-
 import java.util.*;
 
 public class GFG_3 {
