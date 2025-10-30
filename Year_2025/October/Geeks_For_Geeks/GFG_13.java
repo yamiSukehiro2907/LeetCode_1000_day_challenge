@@ -1,29 +1,35 @@
 
 public class GFG_13 {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        Node node = new Node(2);
+        System.out.println(solution.getMaxSum(node));
     }
 
     private static class Node {
+
         int data;
         Node left;
         Node right;
 
-        Node(int data) {
+        public Node(int data) {
             this.data = data;
             this.left = this.right = null;
         }
     }
 
     private static class Solution {
+
         public int getMaxSum(Node root) {
             Pair pair = solve(root);
             return Math.max(pair.include, pair.exclude);
         }
 
         private Pair solve(Node root) {
-            if (root == null)
+            if (root == null) {
                 return new Pair(0, 0);
+            }
             Pair left = solve(root.left);
             Pair right = solve(root.right);
             int include = left.exclude + right.exclude + root.data;
@@ -32,6 +38,7 @@ public class GFG_13 {
         }
 
         private class Pair {
+
             int include;
             int exclude;
 

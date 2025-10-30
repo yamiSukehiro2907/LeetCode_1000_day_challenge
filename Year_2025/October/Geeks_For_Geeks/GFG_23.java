@@ -1,12 +1,18 @@
+
 import java.util.ArrayList;
 import java.util.Arrays;
 
 public class GFG_23 {
-    public static void main(String[] args) {
 
+    public static void main(String[] args) {
+        Solution solution = new Solution();
+        int[][] points = {{}};
+        int k = 2;
+        solution.kClosest(points, k);
     }
 
     private static class Solution {
+
         public ArrayList<ArrayList<Integer>> kClosest(int[][] points, int k) {
             Arrays.sort(points, (a, b) -> Double.compare(distance(a[0], a[1]), distance(b[0], b[1])));
             ArrayList<ArrayList<Integer>> ans = new ArrayList<>();
@@ -64,5 +70,5 @@ public class GFG_23 {
         return n * n;
     }
 }
-    */
+     */
 }

@@ -1,11 +1,15 @@
+
 import java.util.ArrayList;
 
 public class GFG_2 {
+
     public static void main(String[] args) {
-        
+        Solution solution = new Solution();
+        System.out.println(solution.combinationSum(2, 2));
     }
 
     private static class Solution {
+
         private int target;
         private int maxNum;
 
@@ -21,8 +25,9 @@ public class GFG_2 {
 
         private void solve(ArrayList<ArrayList<Integer>> ans, ArrayList<Integer> temp, int currentSum,
                 boolean[] visited) {
-            if (temp.size() > maxNum || currentSum > target)
+            if (temp.size() > maxNum || currentSum > target) {
                 return;
+            }
 
             if (temp.size() == maxNum && currentSum == target) {
                 ans.add(new ArrayList<>(temp));
