@@ -4,6 +4,8 @@ public class and_in_range {
         System.out.println(solution.andInRange(8, 13));
     }
 
+    /// [...](https://www.geeksforgeeks.org/problems/count-total-set-bits-1587115620/1)
+
     private static class Solution {
         public int andInRange(int l, int r) {
             int ans = 0;
@@ -13,9 +15,9 @@ public class and_in_range {
         }
 
         private boolean setBit(int l, int r, int pos) {
-            int leftbit = (l >> pos) & 1;
-            int rightbit = (r >> pos) & 1;
-            if (leftbit == 1 && rightbit == 1) return (r - l) < (1 << pos);
+            int leftBit = (l >> pos) & 1;
+            int rightBit = (r >> pos) & 1;
+            if (leftBit == 1 && rightBit == 1) return (r - l) < (1 << pos);
             /// if and only if they are 1 and the gap between them is less than maximum gap b/w flip of 0s and 1s
             return false;
         }

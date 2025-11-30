@@ -1,7 +1,7 @@
 import java.util.*;
 public class max_number_of_k_divisible_components {
     public static void main(String[] args) {
-
+        /// Link:- [...](https://leetcode.com/problems/maximum-number-of-k-divisible-components/)
     }
 
     private static class Solution {
