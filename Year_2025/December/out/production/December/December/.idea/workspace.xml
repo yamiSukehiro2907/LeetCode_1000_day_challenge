@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.annotationProcessors&quot;
+  }
+}</component>
+  <component name="RunManager" selected="Application.max_score_from_jump (1)">
+    <configuration name="max_score_from_jump (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="December.GFG.max_score_from_jump" />
+      <module name="December" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="December.GFG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="max_score_from_jump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="December.GFG.max_score_from_jump" />
+      <module name="December" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="December.GFG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.max_score_from_jump (1)" />
+        <item itemvalue="Application.max_score_from_jump" />
+      </list>
+    </recent_temporary>
+  </component>
+</project>
