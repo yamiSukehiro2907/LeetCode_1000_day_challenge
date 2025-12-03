@@ -5,70 +5,105 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2843b949-2ec6-461a-8953-e048b4d00653" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/December.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GFG/max_score_from_jump.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/count_unique_trapezoids.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../November/GFG/alien_dictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../October/LeetCode/L_20.java" beforeDir="false" afterPath="$PROJECT_DIR$/../October/LeetCode/L_20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GFG/travelling_salesman_problem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/LeetCode/count_unique_trapezoids2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GFG/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GFG/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GFG/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GFG/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GFG/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GFG/GFG.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/December/December/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/December/December/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/December/December/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/December/December/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/December/December/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/December/December/December.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/December/December/GFG/max_score_from_jump$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/December/December/GFG/max_score_from_jump.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/December/December/LeetCode/count_unique_trapezoids$Solution.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/December/December/LeetCode/count_unique_trapezoids.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "yamiSukehiro2907"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;yamiSukehiro2907&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/yamiSukehiro2907/LeetCode_1000_day_challenge.git",
-    "accountId": "aa8b52d4-9627-48d7-b338-4ffe26882467"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/yamiSukehiro2907/LeetCode_1000_day_challenge.git&quot;,
+    &quot;accountId&quot;: &quot;aa8b52d4-9627-48d7-b338-4ffe26882467&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "customColor": "",
-  "associatedIndex": 5
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="36HVUPw3xEz5K2adPfjOO1nHoea" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.count_unique_trapezoids2 (1).executor": "Run",
+    "Application.count_unique_trapezoids2 (2).executor": "Run",
+    "Application.count_unique_trapezoids2 (3).executor": "Run",
+    "Application.count_unique_trapezoids2 (4).executor": "Run",
+    "Application.count_unique_trapezoids2 (5).executor": "Run",
+    "Application.count_unique_trapezoids2.executor": "Run",
     "Application.max_score_from_jump (1).executor": "Run",
     "Application.max_score_from_jump (2).executor": "Run",
     "Application.max_score_from_jump (3).executor": "Run",
     "Application.max_score_from_jump (4).executor": "Run",
     "Application.max_score_from_jump (5).executor": "Run",
     "Application.max_score_from_jump.executor": "Run",
+    "Application.travelling_salesman_problem (1).executor": "Run",
+    "Application.travelling_salesman_problem (2).executor": "Run",
+    "Application.travelling_salesman_problem (3).executor": "Run",
+    "Application.travelling_salesman_problem.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Vimal/LeetCode_1000_day_challenge/Year_2025/December",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.max_score_from_jump (1)">
-    <configuration name="max_score_from_jump (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="December.GFG.max_score_from_jump" />
+  <component name="RunManager" selected="Application.travelling_salesman_problem (5)">
+    <configuration name="travelling_salesman_problem (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="December.GFG.travelling_salesman_problem" />
       <module name="December" />
       <extension name="coverage">
         <pattern>
@@ -80,8 +115,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="max_score_from_jump (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="December.GFG.max_score_from_jump" />
+    <configuration name="travelling_salesman_problem (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="December.GFG.travelling_salesman_problem" />
       <module name="December" />
       <extension name="coverage">
         <pattern>
@@ -93,8 +128,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="max_score_from_jump (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="December.GFG.max_score_from_jump" />
+    <configuration name="travelling_salesman_problem (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="December.GFG.travelling_salesman_problem" />
       <module name="December" />
       <extension name="coverage">
         <pattern>
@@ -106,8 +141,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="max_score_from_jump (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="December.GFG.max_score_from_jump" />
+    <configuration name="travelling_salesman_problem (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="December.GFG.travelling_salesman_problem" />
       <module name="December" />
       <extension name="coverage">
         <pattern>
@@ -119,8 +154,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="max_score_from_jump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="December.GFG.max_score_from_jump" />
+    <configuration name="travelling_salesman_problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="December.GFG.travelling_salesman_problem" />
       <module name="December" />
       <extension name="coverage">
         <pattern>
@@ -134,11 +169,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.max_score_from_jump (1)" />
-        <item itemvalue="Application.max_score_from_jump" />
-        <item itemvalue="Application.max_score_from_jump (5)" />
-        <item itemvalue="Application.max_score_from_jump (4)" />
-        <item itemvalue="Application.max_score_from_jump (3)" />
+        <item itemvalue="Application.travelling_salesman_problem (5)" />
+        <item itemvalue="Application.travelling_salesman_problem (4)" />
+        <item itemvalue="Application.travelling_salesman_problem" />
+        <item itemvalue="Application.travelling_salesman_problem (3)" />
+        <item itemvalue="Application.travelling_salesman_problem (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -158,6 +193,7 @@
       <option name="presentableId" value="Default" />
       <updated>1764663498551</updated>
       <workItem from="1764663499904" duration="2250000" />
+      <workItem from="1764774828697" duration="5053000" />
     </task>
     <servers />
   </component>
