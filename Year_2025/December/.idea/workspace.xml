@@ -5,26 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2843b949-2ec6-461a-8953-e048b4d00653" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GFG/travelling_salesman_problem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/count_unique_trapezoids2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GFG/first_positive_missing_number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/GFG/optimal_strategy_for_game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/GFG.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/December/December/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/December/December/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/December/December/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/December/December/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/December/December/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/December/December/December.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/December/December/GFG/max_score_from_jump$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/December/December/GFG/max_score_from_jump.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/December/December/LeetCode/count_unique_trapezoids$Solution.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/December/December/LeetCode/count_unique_trapezoids.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/count_unique_trapezoids.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/count_unique_trapezoids.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,15 +57,21 @@
     "Application.count_unique_trapezoids2 (4).executor": "Run",
     "Application.count_unique_trapezoids2 (5).executor": "Run",
     "Application.count_unique_trapezoids2.executor": "Run",
+    "Application.first_positive_missing_number.executor": "Run",
     "Application.max_score_from_jump (1).executor": "Run",
     "Application.max_score_from_jump (2).executor": "Run",
     "Application.max_score_from_jump (3).executor": "Run",
     "Application.max_score_from_jump (4).executor": "Run",
     "Application.max_score_from_jump (5).executor": "Run",
     "Application.max_score_from_jump.executor": "Run",
+    "Application.optimal_strategy_for_game (1).executor": "Run",
+    "Application.optimal_strategy_for_game (2).executor": "Run",
+    "Application.optimal_strategy_for_game.executor": "Run",
     "Application.travelling_salesman_problem (1).executor": "Run",
     "Application.travelling_salesman_problem (2).executor": "Run",
     "Application.travelling_salesman_problem (3).executor": "Run",
+    "Application.travelling_salesman_problem (4).executor": "Run",
+    "Application.travelling_salesman_problem (5).executor": "Run",
     "Application.travelling_salesman_problem.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -101,9 +91,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.travelling_salesman_problem (5)">
-    <configuration name="travelling_salesman_problem (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="December.GFG.travelling_salesman_problem" />
+  <component name="RunManager" selected="Application.optimal_strategy_for_game (2)">
+    <configuration name="first_positive_missing_number" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="December.GFG.first_positive_missing_number" />
       <module name="December" />
       <extension name="coverage">
         <pattern>
@@ -115,8 +105,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="travelling_salesman_problem (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="December.GFG.travelling_salesman_problem" />
+    <configuration name="optimal_strategy_for_game (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="December.GFG.optimal_strategy_for_game" />
       <module name="December" />
       <extension name="coverage">
         <pattern>
@@ -128,8 +118,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="travelling_salesman_problem (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="December.GFG.travelling_salesman_problem" />
+    <configuration name="optimal_strategy_for_game (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="December.GFG.optimal_strategy_for_game" />
+      <module name="December" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="December.GFG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="optimal_strategy_for_game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="December.GFG.optimal_strategy_for_game" />
       <module name="December" />
       <extension name="coverage">
         <pattern>
@@ -154,26 +157,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="travelling_salesman_problem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="December.GFG.travelling_salesman_problem" />
-      <module name="December" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="December.GFG.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.optimal_strategy_for_game (2)" />
+        <item itemvalue="Application.optimal_strategy_for_game (1)" />
+        <item itemvalue="Application.optimal_strategy_for_game" />
+        <item itemvalue="Application.first_positive_missing_number" />
         <item itemvalue="Application.travelling_salesman_problem (5)" />
-        <item itemvalue="Application.travelling_salesman_problem (4)" />
-        <item itemvalue="Application.travelling_salesman_problem" />
-        <item itemvalue="Application.travelling_salesman_problem (3)" />
-        <item itemvalue="Application.travelling_salesman_problem (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +183,9 @@
       <option name="presentableId" value="Default" />
       <updated>1764663498551</updated>
       <workItem from="1764663499904" duration="2250000" />
-      <workItem from="1764774828697" duration="5053000" />
+      <workItem from="1764774828697" duration="6466000" />
+      <workItem from="1764838453693" duration="8589000" />
+      <workItem from="1765033673537" duration="2215000" />
     </task>
     <servers />
   </component>

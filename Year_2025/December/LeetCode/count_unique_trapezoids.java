@@ -13,9 +13,12 @@ public class count_unique_trapezoids {
             for(int[] point : points) freq.merge(point[1], 1, Integer::sum);
             long sum = 0, ans = 0;
             for(int x : freq.values()) {
-                long val = x * (x - 1L) / 2L; /// nC2 of current point
-                ans += val * sum; /// pairs with previous number of unique trapezoids
-                sum += val; /// add the current trapezoids this y can form to total trapezoids till now
+                long val = x * (x - 1L) / 2L;
+                /// nC2 of current point
+                ans += val * sum;
+                /// pairs with previous number of unique trapezoids
+                sum += val;
+                /// add the current trapezoids this y can form to total trapezoids till now
             }
             return (int) (ans % MOD);
         }
