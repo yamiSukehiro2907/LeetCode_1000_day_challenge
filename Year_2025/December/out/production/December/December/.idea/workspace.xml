@@ -57,12 +57,6 @@
     "Application.count_unique_trapezoids2 (4).executor": "Run",
     "Application.count_unique_trapezoids2 (5).executor": "Run",
     "Application.count_unique_trapezoids2.executor": "Run",
-    "Application.find_mentioned_users (1).executor": "Run",
-    "Application.find_mentioned_users (2).executor": "Run",
-    "Application.find_mentioned_users (3).executor": "Run",
-    "Application.find_mentioned_users (4).executor": "Run",
-    "Application.find_mentioned_users (5).executor": "Run",
-    "Application.find_mentioned_users.executor": "Run",
     "Application.first_positive_missing_number.executor": "Run",
     "Application.max_score_from_jump (1).executor": "Run",
     "Application.max_score_from_jump (2).executor": "Run",
@@ -98,48 +92,9 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.find_mentioned_users (3)">
-    <configuration name="find_mentioned_users (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="December.LeetCode.find_mentioned_users" />
-      <module name="December" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="December.LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="find_mentioned_users (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="December.LeetCode.find_mentioned_users" />
-      <module name="December" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="December.LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="find_mentioned_users (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="December.LeetCode.find_mentioned_users" />
-      <module name="December" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="December.LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="find_mentioned_users (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="December.LeetCode.find_mentioned_users" />
+  <component name="RunManager" selected="Application.find_mentioned_users">
+    <configuration name="count_square_sum_triplets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="December.LeetCode.count_square_sum_triplets" />
       <module name="December" />
       <extension name="coverage">
         <pattern>
@@ -164,13 +119,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="optimal_strategy_for_game (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="December.GFG.optimal_strategy_for_game" />
+      <module name="December" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="December.GFG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="optimal_strategy_for_game (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="December.GFG.optimal_strategy_for_game" />
+      <module name="December" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="December.GFG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="optimal_strategy_for_game" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="December.GFG.optimal_strategy_for_game" />
+      <module name="December" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="December.GFG.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.find_mentioned_users (3)" />
         <item itemvalue="Application.find_mentioned_users" />
-        <item itemvalue="Application.find_mentioned_users (2)" />
-        <item itemvalue="Application.find_mentioned_users (1)" />
-        <item itemvalue="Application.find_mentioned_users (5)" />
+        <item itemvalue="Application.count_square_sum_triplets" />
+        <item itemvalue="Application.optimal_strategy_for_game (2)" />
+        <item itemvalue="Application.optimal_strategy_for_game (1)" />
+        <item itemvalue="Application.optimal_strategy_for_game" />
       </list>
     </recent_temporary>
   </component>
@@ -195,7 +189,7 @@
       <workItem from="1765033673537" duration="2652000" />
       <workItem from="1765168277123" duration="5391000" />
       <workItem from="1765220480784" duration="2795000" />
-      <workItem from="1765530899047" duration="2118000" />
+      <workItem from="1765530899047" duration="313000" />
     </task>
     <servers />
   </component>
