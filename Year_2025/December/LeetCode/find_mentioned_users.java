@@ -2,12 +2,11 @@ package December.LeetCode;
 
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 public class find_mentioned_users {
 
-    public static void main() {
+    static void main() {
         String[][] str = {{"MESSAGE", "1", "ALL"}, {"OFFLINE", "66", "1"}, {"MESSAGE", "66", "HERE"}, {"OFFLINE", "5", "1"}};
         Solution solution = new Solution();
         List<List<String>> events = new ArrayList<>();
@@ -21,7 +20,7 @@ public class find_mentioned_users {
         public int[] countMentions(int numberOfUsers, List<List<String>> events) {
             int[] mentions = new int[numberOfUsers];
             int[] isActive = new int[numberOfUsers];
-            Collections.sort(events, (a, b) -> {
+            events.sort((a, b) -> {
                 int t1 = Integer.parseInt(a.get(1)), t2 = Integer.parseInt(b.get(1));
                 if (t1 != t2) return t1 - t2;
                 if (a.get(0).equals("MESSAGE")) return 1;
