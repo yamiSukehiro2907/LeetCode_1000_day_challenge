@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2843b949-2ec6-461a-8953-e048b4d00653" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/LeetCode/count_square_sum_triplets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/find_mentioned_users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/find_mentioned_users.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/find_mentioned_users.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,7 +193,7 @@
       <workItem from="1765033673537" duration="2652000" />
       <workItem from="1765168277123" duration="5391000" />
       <workItem from="1765220480784" duration="2795000" />
-      <workItem from="1765530899047" duration="2118000" />
+      <workItem from="1765530899047" duration="2357000" />
     </task>
     <servers />
   </component>
