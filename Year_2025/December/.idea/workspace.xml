@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2843b949-2ec6-461a-8953-e048b4d00653" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/GFG/add_two_linked_lists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GFG/count_magic_matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/GFG/magic_num.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LeetCode/last_safe_day.java" afterDir="false" />
+    <list default="true" id="2843b949-2ec6-461a-8953-e048b4d00653" name="Changes" comment="last_safe_day leetcode">
       <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
@@ -39,40 +35,7 @@
       <change beforePath="$PROJECT_DIR$/../August/GFG_30.java" beforeDir="false" afterPath="$PROJECT_DIR$/../August/GFG_30.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../August/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../August/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../August/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../August/Solution.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/December.iml" beforeDir="false" afterPath="$PROJECT_DIR$/December.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/GFG/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/.idea/go.imports.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GFG/.idea/go.imports.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GFG/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/GFG/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/GFG.iml" beforeDir="false" afterPath="$PROJECT_DIR$/GFG/GFG.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/best_time_to_buy_stock_using_strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/GFG/best_time_to_buy_stock_using_strategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/count_index_removed_having_equal_odd_even_sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/GFG/count_index_removed_having_equal_odd_even_sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/first_positive_missing_number.java" beforeDir="false" afterPath="$PROJECT_DIR$/GFG/first_positive_missing_number.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/kth_element_two_sorted_array.java" beforeDir="false" afterPath="$PROJECT_DIR$/GFG/kth_element_two_sorted_array.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/max_score_from_jump.java" beforeDir="false" afterPath="$PROJECT_DIR$/GFG/max_score_from_jump.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/optimal_strategy_for_game.java" beforeDir="false" afterPath="$PROJECT_DIR$/GFG/optimal_strategy_for_game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/pyramid_transition_matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/GFG/pyramid_transition_matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/sort_in_specific_order.java" beforeDir="false" afterPath="$PROJECT_DIR$/GFG/sort_in_specific_order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/GFG/travelling_salesman_problem.java" beforeDir="false" afterPath="$PROJECT_DIR$/GFG/travelling_salesman_problem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/.idea/go.imports.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/.idea/go.imports.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/LeetCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/LeetCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/count_square_sum_triplets.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/count_square_sum_triplets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/count_subsequence.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/count_subsequence.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/count_unique_trapezoids.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/count_unique_trapezoids.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/count_unique_trapezoids2.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/count_unique_trapezoids2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/find_all_people_with_secret.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/find_all_people_with_secret.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/find_mentioned_users.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/find_mentioned_users.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/k_smallest_in_sorted_matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/k_smallest_in_sorted_matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/max_value_non_overlapping_events.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/max_value_non_overlapping_events.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/meeting_room_three.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/meeting_room_three.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/peak_element_in_2d_matrix.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/peak_element_in_2d_matrix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LeetCode/regular_expression_matching.java" beforeDir="false" afterPath="$PROJECT_DIR$/LeetCode/regular_expression_matching.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../July/July_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../July/July_10.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../July/July_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/../July/July_11.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../July/July_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../July/July_12.java" afterDir="false" />
@@ -203,10 +166,13 @@
     &quot;assignee&quot;: &quot;yamiSukehiro2907&quot;
   }
 }</component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="43480bc9-75e7-45e6-b8fd-5c2e3c3df6db" />
+  </component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/yamiSukehiro2907/LeetCode_1000_day_challenge.git&quot;,
-    &quot;accountId&quot;: &quot;aa8b52d4-9627-48d7-b338-4ffe26882467&quot;
+    &quot;accountId&quot;: &quot;43480bc9-75e7-45e6-b8fd-5c2e3c3df6db&quot;
   }
 }</component>
   <component name="McpProjectServerCommands">
@@ -259,6 +225,7 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
@@ -274,7 +241,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "settings.editor.selected.configurable": "vcs.Git",
     "to.speed.mode.migration.done": "true",
     "vue.rearranger.settings.migration": "true"
   }
@@ -377,11 +344,28 @@
       <workItem from="1765168277123" duration="5391000" />
       <workItem from="1765220480784" duration="2795000" />
       <workItem from="1765530899047" duration="2357000" />
-      <workItem from="1767185599835" duration="4417000" />
+      <workItem from="1767185599835" duration="4711000" />
+      <workItem from="1767194456587" duration="389000" />
+      <workItem from="1767194869418" duration="375000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="last_safe_day leetcode" />
+    <option name="LAST_COMMIT_MESSAGE" value="last_safe_day leetcode" />
   </component>
 </project>
