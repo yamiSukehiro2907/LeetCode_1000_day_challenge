@@ -5,145 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2843b949-2ec6-461a-8953-e048b4d00653" name="Changes" comment="last_safe_day leetcode">
-      <change beforePath="$PROJECT_DIR$/../../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../April/Date_28/Java.java" beforeDir="false" afterPath="$PROJECT_DIR$/../April/Date_28/Java.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../April/Date_28/finalSol.java" beforeDir="false" afterPath="$PROJECT_DIR$/../April/Date_28/finalSol.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../August/August_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../August/August_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../August/August_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/../August/August_11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../August/August_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../August/August_14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../August/August_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../August/August_15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../August/August_17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../August/August_17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../August/August_18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../August/August_18.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../August/August_27.java" beforeDir="false" afterPath="$PROJECT_DIR$/../August/August_27.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../August/August_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/../August/August_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../August/August_30.java" beforeDir="false" afterPath="$PROJECT_DIR$/../August/August_30.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../August/August_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../August/August_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../August/August_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../August/August_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../August/August_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../August/August_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../August/GFG_20.java" beforeDir="false" afterPath="$PROJECT_DIR$/../August/GFG_20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../August/GFG_29.java" beforeDir="false" afterPath="$PROJECT_DIR$/../August/GFG_29.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../August/GFG_30.java" beforeDir="false" afterPath="$PROJECT_DIR$/../August/GFG_30.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../August/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../August/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../August/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/../August/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../July/July_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../July/July_10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../July/July_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/../July/July_11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../July/July_12.java" beforeDir="false" afterPath="$PROJECT_DIR$/../July/July_12.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../July/July_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../July/July_13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../July/July_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../July/July_14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../July/July_15.java" beforeDir="false" afterPath="$PROJECT_DIR$/../July/July_15.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../July/July_16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../July/July_16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../July/July_21.java" beforeDir="false" afterPath="$PROJECT_DIR$/../July/July_21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../July/July_22.java" beforeDir="false" afterPath="$PROJECT_DIR$/../July/July_22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../July/July_23.java" beforeDir="false" afterPath="$PROJECT_DIR$/../July/July_23.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../July/July_29.java" beforeDir="false" afterPath="$PROJECT_DIR$/../July/July_29.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../July/July_30.java" beforeDir="false" afterPath="$PROJECT_DIR$/../July/July_30.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../July/July_31.java" beforeDir="false" afterPath="$PROJECT_DIR$/../July/July_31.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../July/July_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../July/July_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../July/July_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../July/July_8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../July/July_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/../July/July_9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/.vscode/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/../June/.vscode/settings.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_10/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_10/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_11/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_11/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_13/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_13/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_14/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_14/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_15/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_15/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_16/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_16/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_17/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_17/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_18/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_18/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_19/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_19/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_2/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_2/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_20/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_20/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_21/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_21/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_22/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_22/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_23/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_23/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_25/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_25/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_26/Solve.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_26/Solve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_28/Solve.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_28/Solve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_29/Solve.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_29/Solve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_3/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_3/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_4/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_4/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_5/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_5/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_5/Optimize.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_5/Optimize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_5/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_5/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_6/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_6/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_7/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_7/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_8/Number.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_8/Number.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../June/June_9/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../June/June_9/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_1/Approach.md" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_1/Approach.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_1/Max_tasks_can_be_assigned.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_1/Max_tasks_can_be_assigned.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_1/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_10/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_10/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_12/Solve.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_12/Solve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_17/Approach.md" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_17/Approach.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_17/Java.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_17/Java.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_18/Editorial.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_18/Editorial.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_18/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_18/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_2/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_2/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_25/Approach2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_25/Approach2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_25/Java.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_25/Java.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_26/Java.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_26/Java.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_27/Approach1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_27/Approach1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_27/Approach2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_27/Approach2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_28/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_28/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_29/Approach1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_29/Approach1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_29/LinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_29/LinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_29/NeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_29/NeetCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_3/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_3/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_3/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_3/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_31/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_31/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_4/Solve.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_4/Solve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_4/test.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_4/test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_6/Solve.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_6/Solve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_7/Approach2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_7/Approach2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_7/Solve.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_7/Solve.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_7/Solve2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_7/Solve2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../May/May_8/Approach.java" beforeDir="false" afterPath="$PROJECT_DIR$/../May/May_8/Approach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../November/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../November/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../November/GFG/GFG_19.java" beforeDir="false" afterPath="$PROJECT_DIR$/../November/GFG/GFG_19.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../November/GFG/GFG_20.java" beforeDir="false" afterPath="$PROJECT_DIR$/../November/GFG/GFG_20.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../November/GFG/GFG_21.java" beforeDir="false" afterPath="$PROJECT_DIR$/../November/GFG/GFG_21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../November/GFG/GFG_22.java" beforeDir="false" afterPath="$PROJECT_DIR$/../November/GFG/GFG_22.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../November/GFG/GFG_23.java" beforeDir="false" afterPath="$PROJECT_DIR$/../November/GFG/GFG_23.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../November/GFG/alien_dictionary.java" beforeDir="false" afterPath="$PROJECT_DIR$/../November/GFG/alien_dictionary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../November/GFG/and_in_range.java" beforeDir="false" afterPath="$PROJECT_DIR$/../November/GFG/and_in_range.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../November/GFG/count_unique_substring.java" beforeDir="false" afterPath="$PROJECT_DIR$/../November/GFG/count_unique_substring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../November/GFG/floyd_warshall.java" beforeDir="false" afterPath="$PROJECT_DIR$/../November/GFG/floyd_warshall.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../November/GFG/second_best_mst.java" beforeDir="false" afterPath="$PROJECT_DIR$/../November/GFG/second_best_mst.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../November/GFG/shortest_path_dag.java" beforeDir="false" afterPath="$PROJECT_DIR$/../November/GFG/shortest_path_dag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../November/GFG/spanning_tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/../November/GFG/spanning_tree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../November/GFG/subset_xor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../November/GFG/subset_xor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../November/LeetCode/L_21.java" beforeDir="false" afterPath="$PROJECT_DIR$/../November/LeetCode/L_21.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../November/LeetCode/L_23.java" beforeDir="false" afterPath="$PROJECT_DIR$/../November/LeetCode/L_23.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../November/LeetCode/max_number_of_k_divisible_components.java" beforeDir="false" afterPath="$PROJECT_DIR$/../November/LeetCode/max_number_of_k_divisible_components.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../November/LeetCode/remove_min_subarray_to_make_divisible_by_k.java" beforeDir="false" afterPath="$PROJECT_DIR$/../November/LeetCode/remove_min_subarray_to_make_divisible_by_k.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../November/November.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../November/November.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../September/GFG_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../September/GFG_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../September/GFG_10.java" beforeDir="false" afterPath="$PROJECT_DIR$/../September/GFG_10.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../September/GFG_11.java" beforeDir="false" afterPath="$PROJECT_DIR$/../September/GFG_11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../September/GFG_13.java" beforeDir="false" afterPath="$PROJECT_DIR$/../September/GFG_13.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../September/GFG_14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../September/GFG_14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../September/GFG_16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../September/GFG_16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../September/GFG_17.java" beforeDir="false" afterPath="$PROJECT_DIR$/../September/GFG_17.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../September/GFG_18.java" beforeDir="false" afterPath="$PROJECT_DIR$/../September/GFG_18.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../September/GFG_5.java" beforeDir="false" afterPath="$PROJECT_DIR$/../September/GFG_5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../September/GFG_7.java" beforeDir="false" afterPath="$PROJECT_DIR$/../September/GFG_7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../September/GFG_8.java" beforeDir="false" afterPath="$PROJECT_DIR$/../September/GFG_8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../September/GFG_9.java" beforeDir="false" afterPath="$PROJECT_DIR$/../September/GFG_9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../September/L_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../September/L_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Year_2025.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Year_2025.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../mohit.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../mohit.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LeetCode/last_safe_day.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year_2026/January/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../Year_2026/January/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year_2026/January/.idea/January.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Year_2026/January/.idea/January.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year_2026/January/.idea/go.imports.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Year_2026/January/.idea/go.imports.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year_2026/January/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Year_2026/January/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year_2026/January/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Year_2026/January/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Year_2026/January/intersection_of_Y_shaped_linked_list.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Year_2026/January/intersection_of_Y_shaped_linked_list.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +101,7 @@
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/run/media/vimal/windows/Programs/leetcode_gfg_streak/Year_2025/December",
+    "last_opened_file_path": "/run/media/vimal/windows/Programs/leetcode_gfg_streak/Year_2026/January",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -346,8 +215,19 @@
       <workItem from="1765530899047" duration="2357000" />
       <workItem from="1767185599835" duration="4711000" />
       <workItem from="1767194456587" duration="389000" />
-      <workItem from="1767194869418" duration="375000" />
+      <workItem from="1767194869418" duration="396000" />
+      <workItem from="1767195902426" duration="32000" />
+      <workItem from="1767371171196" duration="61000" />
     </task>
+    <task id="LOCAL-00001" summary="last_safe_day leetcode">
+      <option name="closed" value="true" />
+      <created>1767195248581</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1767195248581</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
