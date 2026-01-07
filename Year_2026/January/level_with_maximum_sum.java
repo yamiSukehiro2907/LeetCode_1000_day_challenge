@@ -5,17 +5,7 @@ public class level_with_maximum_sum {
 
     }
 
-    static class TreeNode{
-        TreeNode left;
-        TreeNode right;
-        int val;
 
-        TreeNode(int val) {
-            this.val = val;
-            this.left = null;
-            this.right = null;
-        }
-    }
 
     static class Solution {
         private int maxLevel = 0;
