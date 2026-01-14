@@ -1,9 +1,7 @@
 package January;
 
-import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.Comparator;
 
 public class separate_square_2 {
     static void main() {
@@ -14,10 +12,10 @@ public class separate_square_2 {
 
         private static final class Event {
             final long yLine;
-            final long left, right;
+            final int left, right;
             final int delta;
 
-            public Event(long yLine, long left, long right, int delta) {
+            public Event(long yLine, int left, int right, int delta) {
                 this.yLine = yLine;
                 this.left = left;
                 this.right = right;
@@ -36,10 +34,6 @@ public class separate_square_2 {
                 this.cover = new long[n << 2];
                 this.count = new long[n << 2];
             }
-            // 2 -> 4
-            // 3 -> 8
-            // 4 -> 12
-            // 5 -> 16
 
             public long covered() {
                 return cover[1];
@@ -53,7 +47,7 @@ public class separate_square_2 {
             public void update(int node, int left, int right, int queryLeft, int queryRight, int delta) {
                 if (queryRight <= left || right <= queryLeft) return;
                 if (queryLeft <= left && right <= queryRight) {
-                    count[node]++;
+                    count[node] += delta;
                     pushUp(node, left, right);
                     return;
                 }
@@ -89,7 +83,6 @@ public class separate_square_2 {
             }
 
             xs = Arrays.copyOf(xs, index); // take the unique boundaries of xStart and xEnd
-
             if (xs.length < 2) { // no squares
                 long minY = Long.MAX_VALUE;
                 for (int[] s : squares) minY = Math.min(minY, s[1]);
@@ -101,8 +94,8 @@ public class separate_square_2 {
             for (int[] square : squares) {
                 long xStart = square[0], xEnd = square[0] + square[2];
                 long yStart = square[1], yEnd = square[1] + square[2];
-                long left = lowerBound(xs, xStart);
-                long right = lowerBound(xs, xEnd);
+                int left = lowerBound(xs, xStart);
+                int right = lowerBound(xs, xEnd);
                 if (left < right) {
                     events[index++] = new Event(yStart, left, right, 1);
                     events[index++] = new Event(yEnd, left, right, -1);
@@ -111,13 +104,54 @@ public class separate_square_2 {
 
             if (index == 0) return -1;
             events = Arrays.copyOf(events, index);
-            Arrays.sort(events, (a, b) -> Long.compare(a.yLine, b.yLine));
+            Arrays.sort(events, Comparator.comparingLong(a -> a.yLine));
 
             SegmentTree segmentTree = new SegmentTree(xs);
 
             long[] yStart = new long[index];
             long[] yEnd = new long[index];
             long[] base = new long[index];
+
+            int gIndex = 0;
+
+            long area = 0;
+            long prevY = events[0].yLine;
+            long baseLine = 0;
+            index = 0;
+            while (index < events.length) {
+                long currY = events[index].yLine;
+                long dy = currY - prevY;
+
+                if (dy != 0 && baseLine != 0) {
+                    area += baseLine * dy;
+                    yStart[gIndex] = prevY;
+                    yEnd[gIndex] = currY;
+                    base[gIndex] = baseLine;
+                    gIndex++;
+                }
+                int j = index;
+                while (j < events.length && events[j].yLine == currY) {
+                    segmentTree.update(events[j].left, events[j].right, events[j].delta);
+                    j++;
+                }
+                baseLine = segmentTree.covered();
+                prevY = currY;
+                index = j;
+            }
+
+            if (area == 0) return prevY;
+
+            double target = area / 2.0;
+            long frontArea = 0;
+            for (int i = 0; i < gIndex; i++) {
+                long temp = base[i] * (yEnd[i] - yStart[i]);
+                if (frontArea + temp < target) frontArea += temp;
+                else {
+                    double neededArea = target - frontArea;
+                    return yStart[i] + (neededArea / base[i]);
+                }
+            }
+            return prevY;
         }
 
         private static int lowerBound(long[] arr, long key) {
@@ -128,127 +162,6 @@ public class separate_square_2 {
                 else end = mid;
             }
             return start;
-        }
-    }
-
-    static class Solution2 {
-        public double separateSquares(int[][] squares) {
-            List<Event> sweepEvents = new ArrayList<>();
-            for (int[] square : squares) {
-                int x = square[0], y = square[1], side = square[2];
-                sweepEvents.add(new Event(y, 1, x, x + side)); // 1 is for start of the square
-                sweepEvents.add(new Event(y + side, -1, x, x + side)); // -1 is for end of the square
-            }
-
-            Collections.sort(sweepEvents); // it sorts the sweepEvents on the yLines
-
-            List<Interval> activeIntervals = new ArrayList<>();
-            List<double[]> processedStrips = new ArrayList<>();
-
-            double totalArea = 0;
-            int prevYLine = sweepEvents.get(0).yLine;
-
-            for (Event event : sweepEvents) {
-                if (event.yLine > prevYLine) {
-                    double unionWidth = getUnionWidth(activeIntervals);
-                    double height = (double) event.yLine - prevYLine;
-
-                    if (unionWidth > 0) {
-                        processedStrips.add(new double[]{prevYLine, height, unionWidth});
-                        totalArea += unionWidth * height;
-                    }
-                }
-
-                Interval currentInterval = new Interval(event.xStart, event.xEnd);
-                if (event.type == 1) {
-                    activeIntervals.add(currentInterval);
-                } else {
-                    activeIntervals.remove(currentInterval);
-                }
-
-                prevYLine = event.yLine;
-            }
-
-            double targetArea = totalArea / 2.0;
-            double area = 0;
-
-            for (double[] strip : processedStrips) {
-                double bottomY = strip[0];
-                double height = strip[1];
-                double width = strip[2];
-
-                double stripeArea = height * width;
-
-                if (area + stripeArea >= targetArea) {
-                    double missingArea = targetArea - area;
-                    return bottomY + (missingArea / width);
-                }
-                area += stripeArea;
-            }
-
-            return 0.0;
-        }
-
-        private double getUnionWidth(List<Interval> activeIntervals) {
-            if (activeIntervals.isEmpty()) return 0;
-
-            List<Interval> sorted = new ArrayList<>(activeIntervals);
-            Collections.sort(sorted);
-
-            double unionLength = 0;
-            double currentEnd = -1e18;
-
-            for (Interval interval : sorted) {
-                if (interval.start >= currentEnd) {
-                    unionLength += (interval.end - interval.start);
-                    currentEnd = interval.end;
-                } else if (interval.end > currentEnd) {
-                    unionLength += (interval.end - currentEnd);
-                    currentEnd = interval.end;
-                }
-            }
-            return unionLength;
-        }
-
-        private static class Event implements Comparable<Event> {
-            private final int yLine;
-            private final int type;
-            private final int xStart;
-            private final int xEnd;
-
-            public Event(int yLine, int type, int xStart, int xEnd) {
-                this.yLine = yLine;
-                this.type = type;
-                this.xStart = xStart;
-                this.xEnd = xEnd;
-            }
-
-            public int compareTo(Event other) {
-                return Integer.compare(this.yLine, other.yLine);
-            }
-        }
-
-        private static class Interval implements Comparable<Interval> {
-
-            private final int start;
-            private final int end;
-
-            public Interval(int start, int end) {
-                this.start = start;
-                this.end = end;
-            }
-
-            public int compareTo(Interval other) {
-                if (this.start != other.start) return Integer.compare(this.start, other.start);
-                return Integer.compare(this.end, other.end);
-            }
-
-            public boolean equals(Object other) {
-                if (this == other) return true;
-                if (other == null || this.getClass() != other.getClass()) return false;
-                Interval interval = (Interval) other;
-                return this.start == interval.start && this.end == interval.end;
-            }
         }
     }
 }
