@@ -44,4 +44,52 @@ public class construct_minimum_bitwise_array_one {
             return ans;
         }
     }
+
+    static class Solution2 {
+        public int[] minBitwiseArray(List<Integer> nums) {
+            int n = nums.size();
+            int[] ans = new int[n];
+            for (int i = 0; i < n; i++) ans[i] = findMinOr(nums.get(i));
+            return ans;
+        }
+
+        private int findMinOr(int num) {
+            if (num == 2) return -1;
+            int i = 0;
+            while ((num & (1 << i)) != 0) i++;
+            return num ^ (1 << (i - 1));
+        }
+    }
+/*
+class Solution {
+    public int[] minBitwiseArray(List<Integer> nums) {
+        int[] temp = new int[nums.size()];
+        Arrays.fill(temp , -1);
+        for (int i = 0; i < nums.size() ; i++) {
+            int num = nums.get(i);
+            if ((num & (num + 1)) != 0) {
+                int ans = Integer.MAX_VALUE;
+                for (int j = 0; j < 32; j++) {
+                    int bit = (num >> j) & 1;
+                    int possibleAns = (bit == 0) ? num : (num ^ (1 << j));
+                    // if at j position any bit is set unset and check if answer can be made
+                    if (((possibleAns | (possibleAns + 1)) == num) && (possibleAns < ans)) ans = possibleAns;
+                }
+                if (ans != Integer.MAX_VALUE) temp[i] = ans;
+            } else {
+                // if it has only 1s then unset the last bit and that will be answer
+                int lastPosition = -1;
+                int original = nums.get(i);
+                while (num > 0) {
+                    lastPosition++;
+                    num = num >> 1;
+                }
+                temp[i] = original ^ (1 << lastPosition);
+            }
+        }
+        return temp;
+    }
+}
+*/
+
 }
