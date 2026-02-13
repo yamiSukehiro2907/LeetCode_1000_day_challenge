@@ -16,7 +16,6 @@ public class longest_balanced_substring_two {
     static public class Solution {
         private char[] arr;
         private static final int update = 1_000_000;
-
         public int longestBalanced(String s) {
             this.arr = s.toCharArray();
             if (arr.length < 1000) {
@@ -44,13 +43,12 @@ public class longest_balanced_substring_two {
                 maxLength = Math.max(maxLength, acTask.get());
                 maxLength = Math.max(maxLength, abcTask.get());
                 return maxLength;
-            } catch (InterruptedException | ExecutionException e) {
-                throw new RuntimeException("Error: ", e);
+            } catch (Exception _) {
+                return -1;
             } finally {
                 executor.shutdown();
             }
         }
-
         private int getLength() {
             int maxA = 0, maxB = 0, maxC = 0;
             int currA = 0, currB = 0, currC = 0;
