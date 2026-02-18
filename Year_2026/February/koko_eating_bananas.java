@@ -1,7 +1,7 @@
 package February;
 
 public class koko_eating_bananas{
-   public static void main(String[] args){
+    static void main(String[] args){
       
    }
    static class Solution {
