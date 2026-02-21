@@ -1,7 +1,10 @@
 package February;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class form_the_largest_number {
-   public static void main(String[] args){
+   static void main(String[] args){
       
    }
 
@@ -9,9 +12,9 @@ public class form_the_largest_number {
     public String findLargest(int[] arr) {
         List<Integer> list = new ArrayList<>();
         for(int num : arr) list.add(num);
-        Collections.sort(list , (a , b) -> {
-            String s1 = Integer.toString(a) + Integer.toString(b);
-            String s2 = Integer.toString(b) + Integer.toString(a);
+        list.sort((a, b) -> {
+            String s1 = a + Integer.toString(b);
+            String s2 = b + Integer.toString(a);
             return s2.compareTo(s1);
         });
         StringBuilder sb = new StringBuilder();
