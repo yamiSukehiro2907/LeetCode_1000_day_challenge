@@ -34,6 +34,7 @@ Please ensure your submissions are well-documented and adhere to the repository 
 - **Clone the repository:**
 
   ```bash
-  git clone https://github.com/yamiSukehiro2907/LeetCode_1000_day_challenge
+  git clone https://github.com/vimalyad/LeetCode_1000_day_challenge
   ```
+
 
